@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="11" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="WA_fonsetka" tilewidth="32" tileheight="32" tilecount="20" columns="5">
+  <image source="1qФакультети/WA_fonsetka.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="21" name="WA_Tables" tilewidth="32" tileheight="32" tilecount="270" columns="10">
+  <image source="1qФакультети/WA_Tables.png" width="320" height="864"/>
+ </tileset>
+ <tileset firstgid="291" name="WA_satellite_installation_5x2_160x64" tilewidth="32" tileheight="32" tilecount="10" columns="5">
+  <image source="1qФакультети/1. АКФ/WA_satellite_installation_5x2_160x64.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="301" name="AW_Satellite_Dish_1x1_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="1qФакультети/1. АКФ/AW_Satellite_Dish_1x1_32x32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="302" name="WA_Orbit_Laptop_2x1_64x32" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="1qФакультети/1. АКФ/WA_Orbit_Laptop_2x1_64x32.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="304" name="WA_Rocket_1x1_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="1qФакультети/1. АКФ/WA_Rocket_1x1_32x32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="305" name="WA_AKF_Abbreviation_Blue_3x2_96x64 (1)" tilewidth="32" tileheight="32" tilecount="6" columns="3">
+  <image source="1qФакультети/1. АКФ/WA_AKF_Abbreviation_Blue_3x2_96x64 (1).png" width="96" height="64"/>
+ </tileset>
+ <layer id="1" name="Прошарок плиток 1" width="11" height="9">
+  <data encoding="csv">
+0,0,0,1,2,3,4,5,0,0,0,
+0,0,0,6,7,8,9,10,0,0,0,
+0,0,0,11,12,13,14,15,0,0,0,
+0,0,0,16,17,18,19,20,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,36,37,37,37,37,37,38,0,0,
+0,0,46,47,47,47,47,47,48,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="абр речі" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,305,306,307,0,0,0,0,
+0,0,0,0,308,309,310,0,0,0,0,
+0,0,0,291,292,293,294,295,0,0,0,
+0,0,0,296,297,298,299,300,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,301,0,304,0,302,303,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
